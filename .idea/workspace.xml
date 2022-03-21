@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="login_suite,valid &amp; invalid credential added">
+      <change afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_contact_us_suite.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_suite/verify_invalidcredential_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/login_suite/verify_invalidcredential_suite.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_suite/verify_invalidcredential_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_login_suite/verify_invalidcredential_suite.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_suite/verify_validacredential_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_login_suite/verify_validacredential_suite.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647892954048</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="login_suite,valid &amp; invalid credential added">
+      <created>1647893341251</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647893341251</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

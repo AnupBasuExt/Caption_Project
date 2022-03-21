@@ -8,7 +8,6 @@ Test Teardown   Close Browser
 
 *** Test Cases ***
 Verify Valid Credential Test
-    #Click Element    link=Login
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
     Input Text    id=input-email    alubasu
     Input Text    id=input-password    qwerty123

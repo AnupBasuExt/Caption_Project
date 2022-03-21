@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   This suite willl handles all the test cases related to valid credentials test.
+Documentation   This suite willl handles all the test cases related to valid credentials test.Test case for opencart.
 
 Resource        ../Resource/Base/CommonFunctionality.resource
 

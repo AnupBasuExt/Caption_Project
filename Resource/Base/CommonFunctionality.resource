@@ -4,7 +4,7 @@ Documentation   This file handles brwoser configuration,reusable scripts
 Library     SeleniumLibrary
 
 *** Variables ***
-${BROWSER_NAME}     edge
+${BROWSER_NAME}     chrome
 ${URL}      https://www.opencart.com/
 
 *** Keywords ***

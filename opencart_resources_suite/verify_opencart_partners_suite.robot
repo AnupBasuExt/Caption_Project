@@ -12,3 +12,7 @@ Verify Valid Credential Test
     Input Text    id=input-email    alubasu
     Input Text    id=input-password    qwerty123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']
+    Click Element    xpath=//a[contains(text(),'Resources')]
+    #Mouse Over    xpath=//ul[@class='dropdown-menu']//a[text()='OpenCart Partners']
+    Sleep    5s
+    Click Element    link=OpenCart Partners

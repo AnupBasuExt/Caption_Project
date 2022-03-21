@@ -12,3 +12,4 @@ Verify Valid Credential Test
     Input Text    id=input-email    alubasu
     Input Text    id=input-password    qwerty123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']
+    Click Element    xpath=//a[contains(text(),'Resources')]

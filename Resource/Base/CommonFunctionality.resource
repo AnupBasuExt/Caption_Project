@@ -17,6 +17,7 @@ Launch Browser
     ELSE
         Set Local Variable    ${driver_name}     chromedriver.exe
     END
+
     Open Browser    browser=${BROWSER_NAME}     executable_path=${EXECDIR}${/}driver${/}${driver_name}
     Maximize Browser Window
     Set Selenium Implicit Wait    30s

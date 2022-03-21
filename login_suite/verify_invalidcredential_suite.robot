@@ -9,7 +9,6 @@ Test Teardown       Close Browser
 *** Test Cases ***
 Verify Invalid Credential Test
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
-    Click Element    xpath=//a[@class='btn btn-link navbar-btn']
     Input Text    id=input-email    abcb@gmail.com
     Input Text    id=input-password    abcb123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']

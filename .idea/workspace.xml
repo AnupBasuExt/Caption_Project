@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="CommonFunctionality,driver added" />
+    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="CommonFunctionality, driver added">
+      <change afterPath="$PROJECT_DIR$/login_suite/verify_invalidcredential_suite.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login_suite/verify_validacredential_suite.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647866999186</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CommonFunctionality, driver added">
+      <created>1647867221257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647867221257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +112,7 @@
     <MESSAGE value="Testing" />
     <MESSAGE value="CommonFunctionality added" />
     <MESSAGE value="CommonFunctionality,driver added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CommonFunctionality,driver added" />
+    <MESSAGE value="CommonFunctionality, driver added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommonFunctionality, driver added" />
   </component>
 </project>

@@ -12,8 +12,6 @@ Test Template      Verify OpenCart Partners Template
 
 *** Test Cases ***
 Verify OpenCart Partners Test
-#TC1     anupbasu@gmail.com      anupbasu123     0258    United Kingdom (9)      +44 1296 584015
-#TC2     qwertybasu@gmail.com    qwertybasu123   0258    United Kingdom (9)      +44 1296 584015
 
 *** Keywords ***
 Verify OpenCart Partners Template

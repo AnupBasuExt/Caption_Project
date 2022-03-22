@@ -3,15 +3,17 @@ Documentation   This suite handles test case related to Opencart Partners.
 
 Resource        ../Resource/Base/CommonFunctionality.resource
 
+Library     DataDriver      file=../test_data/OpenCart_Data.xlsx      sheet_name=OpenCart_Partners
+
 Test Setup      Launch Browser
 Test Teardown   Close Browser
 
 Test Template      Verify OpenCart Partners Template
 
 *** Test Cases ***
-
-TC1     anupbasu@gmail.com      anupbasu123     0258    United Kingdom (9)      +44 1296 584015
-TC2     qwertybasu@gmail.com    qwertybasu123   0258    United Kingdom (9)      +44 1296 584015
+Verify OpenCart Partners Test
+#TC1     anupbasu@gmail.com      anupbasu123     0258    United Kingdom (9)      +44 1296 584015
+#TC2     qwertybasu@gmail.com    qwertybasu123   0258    United Kingdom (9)      +44 1296 584015
 
 *** Keywords ***
 Verify OpenCart Partners Template

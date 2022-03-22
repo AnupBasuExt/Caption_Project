@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="Page Object Model added">
-      <change beforePath="$PROJECT_DIR$/opencart_login_suite/verify_validacredential_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_login_suite/verify_validacredential_suite.robot" afterDir="false" />
+    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="Validcredential tested">
+      <change beforePath="$PROJECT_DIR$/screenshot/selenium-screenshot-7.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647949517710</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Validcredential tested">
+      <created>1647949733388</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1647949733388</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +313,7 @@
     <MESSAGE value="Test Template added" />
     <MESSAGE value="DataDriver added" />
     <MESSAGE value="Page Object Model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model added" />
+    <MESSAGE value="Validcredential tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validcredential tested" />
   </component>
 </project>

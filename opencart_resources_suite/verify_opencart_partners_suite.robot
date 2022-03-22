@@ -12,7 +12,7 @@ Verify Valid Credential Test
     Input Text    id=input-email    anupbasu@gmail.com
     Input Text    id=input-password    anupbasu123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']
-    Input Text    id=input-pin    025879
+    Input Text    id=input-pin    0258
     Click Element    xpath=//button[@type='submit']
     Click Element    xpath=//a[contains(text(),'Resources')]
     Mouse Over    xpath=//a[text()='OpenCart Partners']
@@ -22,4 +22,5 @@ Verify Valid Credential Test
     Click Element    xpath=//label[normalize-space()='Development Partner']
     Click Element    xpath=//input[@value='1']
     Click Element    xpath=//a[contains(text(),'View Partner')][1]
-    Capture Page Screenshot
+    Page Should Contain    United Kingdom | OpenCart Partner since 01/2014 | 
+    Element Text Should Be    xpath=//a[text()='+44 1296 584015']    +44 1296 584015

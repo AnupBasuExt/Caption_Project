@@ -9,11 +9,10 @@ Test Teardown   Close Browser
 *** Test Cases ***
 Verify Valid Credential Test
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
-    Input Text    id=input-email    basumatary@gmail.com
-    Input Text    id=input-password    basumatary123
+    Input Text    id=input-email    qwertybasu@gmail.com
+    Input Text    id=input-password    qwertybasu123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']
     Input Text    id=input-pin    0258
-    Sleep    3s
     Click Element    xpath=//button[@type='submit']
     Click Element    xpath=//a[contains(text(),'Resources')]
     Mouse Over    xpath=//a[text()='Contact Us']
@@ -25,8 +24,15 @@ Verify Valid Credential Test
     Input Text    id=input-website    zwgNar.com
     Input Text    id=input-telephone    7000000011
     Input Text    id=input-enquiry    Need full info about partnership
-    #click the captcha manually
+    Element Text Should Be    xpath=//a[text()='opencart@zendesk.com']    opencart@zendesk.com
+    Element Should Contain    xpath=//div[@class='alert alert-info']     Please provide as much information in the form below for our agents to be able to assist you.
+
+*** Comments ***
+    Click the captcha manually, if captcha exceeds the below code doesnot work.
+
     Click Element    xpath=//div[@id='captcha']
     Sleep    10s
     Click Element    xpath=//button[@id='button-send']
-    Capture Page Screenshot
+    Page Should Contain    Your requirement was sent.
+
+

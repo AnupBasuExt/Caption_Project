@@ -36,7 +36,7 @@ Verify Contact Us Template
     Element Should Contain    xpath=//div[@class='alert alert-info']      ${validation2}
 
 *** Comments ***
-    Click the captcha manually, if captcha exceeds the below code doesnot work.
+    Click on the captcha manually, if captcha exceeds then the below code doesnot work.
 
     Click Element    xpath=//div[@id='captcha']
     Sleep    10s

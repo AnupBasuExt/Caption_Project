@@ -11,7 +11,7 @@ Test Template       Verify Contact Us Template
 *** Test Cases ***
 
 TC1     qwertybasu@gmail.com        qwertybasu123       0258        I have a partnership question       opencart@zendesk.com        Please provide as much information in the form below for our agents to be able to assist you.
-TC2     qwertybasu@gmail.com        qwertybasu123       0258        I have a partnership question       opencart@zendesk.com        Please provide as much information in the form below for our agents to be able to assist you.
+TC2     anupbasu@gmail.com          anupbasu123       0258        I have a partnership question       opencart@zendesk.com        Please provide as much information in the form below for our agents to be able to assist you.
 
 *** Keywords ***
 Verify Contact Us Template

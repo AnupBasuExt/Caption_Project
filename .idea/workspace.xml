@@ -4,6 +4,8 @@
     <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="verify opencart_partners suite added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencart_login_suite/verify_validacredential_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_login_suite/verify_validacredential_suite.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencart_resources_suite/verify_contact_us_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_contact_us_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
@@ -29,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Robot_framework" />
     <property name="settings.editor.selected.configurable" value="robocorp.robot.intellij.RobotProjectPreferencesPage" />
   </component>
   <component name="RecentsManager">
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647923125636</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="verify opencart_partners suite added">
+      <created>1647924712656</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647924712656</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

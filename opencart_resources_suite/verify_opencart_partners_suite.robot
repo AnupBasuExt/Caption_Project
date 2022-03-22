@@ -9,9 +9,11 @@ Test Teardown   Close Browser
 *** Test Cases ***
 Verify Valid Credential Test
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
-    Input Text    id=input-email    alubasu
-    Input Text    id=input-password    qwerty123
+    Input Text    id=input-email    anupbasu@gmail.com
+    Input Text    id=input-password    anupbasu123
     Click Element    xpath=//button[@class='btn btn-primary btn-lg hidden-xs']
+    Input Text    id=input-pin    025879
+    Click Element    xpath=//button[@type='submit']
     Click Element    xpath=//a[contains(text(),'Resources')]
     Mouse Over    xpath=//a[text()='OpenCart Partners']
     Click Element    link=OpenCart Partners

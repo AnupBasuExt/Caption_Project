@@ -3,19 +3,19 @@ Documentation   This suite handles test case related to Contact Us.
 
 Resource        ../Resource/Base/CommonFunctionality.resource
 
+Library     DataDriver      file=../test_data/OpenCart_Data.xlsx        sheet_name=OpenCart_Contact_Us
+
 Test Setup      Launch Browser
 Test Teardown   Close Browser
 
 Test Template       Verify Contact Us Template
 
 *** Test Cases ***
-
-TC1     qwertybasu@gmail.com        qwertybasu123       0258        I have a partnership question       opencart@zendesk.com        Please provide as much information in the form below for our agents to be able to assist you.
-TC2     anupbasu@gmail.com          anupbasu123       0258        I have a partnership question       opencart@zendesk.com        Please provide as much information in the form below for our agents to be able to assist you.
+Verify Contact Us Test
 
 *** Keywords ***
 Verify Contact Us Template
-    [Arguments]     ${email}    ${password}     ${fourdigit_pin}    ${query_question}       ${validation1}      ${validation2}
+    [Arguments]     ${email}    ${password}     ${fourdigit_pin}    ${query_question}       ${validation_1}      ${validation_2}
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
     Input Text    id=input-email    ${email}
     Input Text    id=input-password    ${password}
@@ -32,8 +32,8 @@ Verify Contact Us Template
     Input Text    id=input-website    zwgNar.com
     Input Text    id=input-telephone    7000000011
     Input Text    id=input-enquiry    Need full info about partnership
-    Element Text Should Be    xpath=//a[text()='opencart@zendesk.com']    ${validation1}
-    Element Should Contain    xpath=//div[@class='alert alert-info']      ${validation2}
+    Element Text Should Be    xpath=//a[text()='opencart@zendesk.com']    ${validation_1}
+    Element Should Contain    xpath=//div[@class='alert alert-info']      ${validation_2}
 
 *** Comments ***
     Click on the captcha manually, if captcha exceeds then the below code doesnot work.

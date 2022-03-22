@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="opencart_partners, contact_us suite added">
+    <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="verify opencart_partners suite added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/Base/CommonFunctionality.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Resource/Base/CommonFunctionality.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647895455788</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="verify opencart_partners suite added">
+      <created>1647923125636</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647923125636</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +176,7 @@
     <MESSAGE value="login_suite,valid &amp; invalid credential added" />
     <MESSAGE value="opencart partners, contact us,login_suite,valid &amp; invalid credential added" />
     <MESSAGE value="opencart_partners, contact_us suite added" />
-    <option name="LAST_COMMIT_MESSAGE" value="opencart_partners, contact_us suite added" />
+    <MESSAGE value="verify opencart_partners suite added" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify opencart_partners suite added" />
   </component>
 </project>

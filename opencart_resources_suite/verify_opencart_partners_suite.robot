@@ -19,3 +19,5 @@ Verify Valid Credential Test
     Select From List By Label    xpath=//select[@class='form-control']      United Kingdom (9)
     Click Element    xpath=//label[normalize-space()='Development Partner']
     Click Element    xpath=//input[@value='1']
+    Click Element    xpath=//a[contains(text(),'View Partner')][1]
+    Capture Page Screenshot

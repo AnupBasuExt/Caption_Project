@@ -11,6 +11,7 @@ Test Template      Verify Valid Credential Template
 *** Test Cases ***
 #Verify Valid Credential Test
 TC1     anupbasu@gmail.com      anupbasu123     0258    United Kingdom (9)      +44 1296 584015
+TC2     qwertybasu@gmail.com    qwertybasu123   0258    United Kingdom (9)      +44 1296 584015
 
 *** Keywords ***
 Verify Valid Credential Template
@@ -29,5 +30,6 @@ Verify Valid Credential Template
     Click Element    xpath=//label[normalize-space()='Development Partner']
     Click Element    xpath=//input[@value='1']
     Click Element    xpath=//a[contains(text(),'View Partner')][1]
-    Page Should Contain    United Kingdom | OpenCart Partner since 01/2014 | 
+    Page Should Contain    United Kingdom | OpenCart Partner since 01/2014 |
     Element Text Should Be    xpath=//a[text()='+44 1296 584015']    ${validation}
+

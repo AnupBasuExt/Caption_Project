@@ -4,6 +4,7 @@
     <list default="true" id="dcb7ede7-04d3-4e94-b832-5da3e24cefe9" name="Changes" comment="opencartPartners-Test Template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencart_resources_suite/verify_contact_us_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_contact_us_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/opencart_resources_suite/verify_opencart_partners_suite.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647935556795</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="opencartPartners-Test Template">
+      <created>1647940827698</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1647940827698</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

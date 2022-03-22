@@ -6,15 +6,15 @@ Resource        ../Resource/Base/CommonFunctionality.resource
 Test Setup      Launch Browser
 Test Teardown   Close Browser
 
-Test Template      Verify Valid Credential Template
+Test Template      Verify OpenCart Partners Template
 
 *** Test Cases ***
-#Verify Valid Credential Test
+
 TC1     anupbasu@gmail.com      anupbasu123     0258    United Kingdom (9)      +44 1296 584015
 TC2     qwertybasu@gmail.com    qwertybasu123   0258    United Kingdom (9)      +44 1296 584015
 
 *** Keywords ***
-Verify Valid Credential Template
+Verify OpenCart Partners Template
     [Arguments]     ${email}    ${password}     ${fourdigit_pin}    ${country}   ${validation}
     Click Element    xpath=//a[@class='btn btn-link navbar-btn']
     Input Text    id=input-email    ${email}
